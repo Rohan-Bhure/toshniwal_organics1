@@ -1,9 +1,14 @@
-import React from 'react'
+import  Home  from "./pages/Home"
+import Navbar from "./components/NavBar"
+import Footer from "./ui/Footer"
 
 function App() {
   return (
-    <div className=''>
-      Hare Krishna
+    <div className="">
+      <Navbar/>
+     
+      <Home />
+      <Footer/>
     </div>
   )
 }
