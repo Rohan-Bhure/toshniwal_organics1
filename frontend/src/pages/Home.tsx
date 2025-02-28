@@ -4,12 +4,13 @@ import ProductCard from '../components/ProductItems';
 
 function Home() {
   return (
-    <div className=" bg-green-100  mt-20">
+    <div className=" bg-green-100  h-auto ">
      
        <ExploreText/>
        <CategoryCard/>
-        <ProductCard/>    
+         
         <ProductCard/>  
+        <div className='h-20 bg-green-100'></div>
        
     </div>
   );

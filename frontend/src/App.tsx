@@ -1,13 +1,23 @@
-import  Home  from "./pages/Home"
+
+import Footer from "./components/Footer"
 import Navbar from "./components/NavBar"
-import Footer from "./ui/Footer"
+import Cust_Details from "./pages/Cust_Details"
+import Home from "./pages/Home"
+import ShoppingCart from "./pages/ShoppingCart"
+
+
+
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-green-100">
       <Navbar/>
-     
-      <Home />
+
+  
+      
+      <div className="h-20  bg-green-100"></div>
+      <Cust_Details/>
+      
       <Footer/>
     </div>
   )
